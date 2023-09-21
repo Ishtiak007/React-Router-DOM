@@ -5,10 +5,8 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
     return (
-        <div>
-           
-            <Header></Header>
-            
+        <div>           
+            <Header></Header>            
             <Outlet></Outlet>
             <div>
                 <li>Bangladesh</li>
