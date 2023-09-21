@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 
 const Home = () => {
@@ -7,9 +8,16 @@ const Home = () => {
         <div>
            
             <Header></Header>
-            <h1>I am from Home</h1>
+            
             <Outlet></Outlet>
-           
+            <div>
+                <li>Bangladesh</li>
+                <li>Australia</li>
+                <li>Nepal</li>
+                <li>Japan</li>
+                <li>Mishor</li>               
+            </div>
+           <Footer></Footer>
         </div>
     );
 };
