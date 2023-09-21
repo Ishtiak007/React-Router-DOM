@@ -1,11 +1,11 @@
 const Header = () => {
     return (
         <div>
-            <h2>NavBar</h2>
+            <h1>Navbar</h1>
             <nav>
                 <a href="/">Home</a>
-                <a href="/about">About</a>
                 <a href="/contact">Contact</a>
+                <a href="/about">About</a>
             </nav>
         </div>
     );

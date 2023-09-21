@@ -1,7 +1,9 @@
+
+
 const Contact = () => {
     return (
         <div>
-            <p>Contact on: ishtiak.sparrow98@gmail.com</p>
+            <h1>I am from Contact</h1>
         </div>
     );
 };
