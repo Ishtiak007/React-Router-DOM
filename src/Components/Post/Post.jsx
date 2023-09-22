@@ -1,13 +1,18 @@
 import PropTypes from 'prop-types';
 import './Post.css'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 const Post = ({post}) => {
     const {userId,title}=post;
+    const navigate = useNavigate()
+    const showMore =()=>{
+        navigate(`/post/${userId}`)
+    }
     return (
         <div className='post'>
             <h2>User Id : {userId}</h2>
             <p>Title : {title}</p>
-            <Link to={`/post/${userId}`}><button>Show more</button></Link>
+            <Link to={`/post/${userId}`}><utton>Show more</utton></Link>
+            <button onClick={showMore}>More</button>
         </div>
     );
 };
