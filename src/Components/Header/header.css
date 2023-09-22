@@ -6,3 +6,8 @@ nav a{
     padding: 7px 12px;
     border-radius: 13px;
 }
+nav a.active{
+    text-decoration: underline;
+    color: black;
+    background-color: blueviolet;
+}
